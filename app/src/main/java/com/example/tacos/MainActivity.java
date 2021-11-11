@@ -114,6 +114,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
      */
-
+    public  void sum (View view){
+        String a=maciza.getText().toString();
+        int numMaciza = Integer.parseInt(a);
+        numMaciza = numMaciza+1;
+        String resultado = String.valueOf(numMaciza);
+        maciza.setText(resultado);
+    }
 
 }
